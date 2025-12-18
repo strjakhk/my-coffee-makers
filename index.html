@@ -7,61 +7,72 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<div class="layout">
-    <header>
-        <div class="logo">Header Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
-        </nav>
+<div class="layout flex-column">
+    <!-- header -->
+    <header class="flex-row">
+        <div class="flex-row">
+            <div class="logo">Header Logo</div>
+            <nav>
+                <ul class="flex-row">
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <!-- hero section -->
-        <section class="hero">
-            <div class="hero-left-text">
-                <h1>This is a coffee maker website!</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, totam doloremque! Mollitia deserunt neque porro maxime sapiente ex!</p>
-                <button>Sign in</button>
+        <section class="hero flex-row">
+            <div>
+                <div class="hero-left-text">
+                    <h1>This is a coffee maker website!</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, totam doloremque! Mollitia deserunt neque porro maxime sapiente ex!</p>
+                    <button>Sign in</button>
+                </div>
+                <img src="./img/coffee.jpg" alt="hero-coffee image">
             </div>
-            <img src="./img/coffee.jpg" alt="hero-coffee image">
         </section>
         <!-- random informatimon sction -->
-        <section class="info">
-            <h2></h2>
+        <section class="info flex-row">
             <div>
+                <h2>Some Random information</h2>
                 <div>
-                    <img src="./img/drip-coffee-maker.jpg" alt="drip coffee maker" width="280px">
-                    <p>random text</p>
-                </div>
-                <div>
-                    <img src="./img/french-press.jpg" alt="drip coffee maker" width="280px">
-                    <p>random text</p>
-                </div>
-                <div>
-                    <img src="./img/moka-pot.jpg" alt="drip coffee maker" width="280px">
-                    <p>random text</p>
-                </div>
-                <div>
-                    <img src="./img/espresso.jpg" alt="drip coffee maker" width="280px">
-                    <p>random text</p>
+                    <div>
+                        <img src="./img/drip-coffee-maker.jpg" alt="drip coffee maker" width="280px">
+                        <p>random text</p>
+                    </div>
+                    <div>
+                        <img src="./img/french-press.jpg" alt="drip coffee maker" width="280px">
+                        <p>random text</p>
+                    </div>
+                    <div>
+                        <img src="./img/moka-pot.jpg" alt="drip coffee maker" width="280px">
+                        <p>random text</p>
+                    </div>
+                    <div>
+                        <img src="./img/espresso.jpg" alt="drip coffee maker" width="280px">
+                        <p>random text</p>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- quote section -->
-        <section class="quote">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quod qui. Minus recusandae deleniti sapiente distinctio sit! Voluptatem adipisci possimus est soluta animi, excepturi cumque fuga. Consectetur aspernatur quis est?</p>
-            <h4>Lorem ipsum dolor sit amet!</h4>
+        <section class="quote flex-row">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quod qui. Minus recusandae deleniti sapiente distinctio sit! Voluptatem adipisci possimus est soluta animi, excepturi cumque fuga. Consectetur aspernatur quis est?</p>
+                <h4>Lorem ipsum dolor sit amet!</h4>
+            </div>
         </section>
         <!-- sign up section -->
-        <section class="sign-up">
+        <section class="sign-up flex-row">
             <div>
-                <h3></h3>
-                <p></p>
+                <div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <button>Sign up</button>
             </div>
-            <button>Sign up</button>
         </section>
     </main>
     <footer>
