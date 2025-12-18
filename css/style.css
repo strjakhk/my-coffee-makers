@@ -17,7 +17,7 @@
     --content-max-width: 1280px;
     --header-font-color: #F9FAF8;
     --small-text-color: #d0d0d0;
-    --coffee-brown: #674736;
+    --coffee-brown: #694e3f;
 }
 
 body{
@@ -43,6 +43,7 @@ button{
     
     padding: 8px 24px;
     border-radius: 5px;
+    border: 2px solid var(--coffee-brown);
 
     color: var(--bg-color-1);
     font-weight: bold;
@@ -62,8 +63,8 @@ button{
 
 .small-text-dark{
     font-size: 12px;
-    color: var(--bg-color-1);
-    text-shadow: 0px 0px 0px var(--bg-color-1);
+    color: #3c4755;
+    text-shadow: 0px 0px 0px #2b333d;
 }
 
 .large-text-white{
@@ -74,7 +75,7 @@ button{
 
 .large-text-dark{
     font-size: 28px;
-    color: var(--bg-color-1);
+    color: #3c4755;
     text-shadow: 0px 0px 0px var(--bg-color-1);
 }
 
@@ -147,7 +148,7 @@ header nav .flex-row{
 
 .hero-img{
     border-radius: 5px;
-    border: 2px solid var(--small-text-color);
+    border: 2px solid var(--coffee-brown);
 }
 
 /* information */
@@ -168,7 +169,7 @@ header nav .flex-row{
 
 .info img{
     border-radius: 3px;
-    box-shadow: 0px 0px 3px var(--bg-color-1);
+    box-shadow: 0px 0px 10px var(--coffee-brown);
     margin-bottom: 8px;
 }
 
